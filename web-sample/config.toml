@@ -1,5 +1,4 @@
-[environments.staging]
-  environment='staging'
-  network='mumbai.polygonscan'
-  payment_contract_address = "0x80a186DCD922175019913b274568ab172F6E20b1"
-  signer_contract_address = "0x6f83DA2C5f1C5AAC259aD8d817Bb92c2D863F74c"
+environment = 'dev1'
+network = 'polygon.mumbai'
+payment_contract_address = "0x80a186DCD922175019913b274568ab172F6E20b1"
+signer_contract_address = "0x6f83DA2C5f1C5AAC259aD8d817Bb92c2D863F74c"
