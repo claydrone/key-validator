@@ -8,3 +8,8 @@
     network = 'bsc.testnet'
     payment_contract_address = "0xfEB2Bf243bb1214417939A629A8Cc002C826186b"
     signer_contract_address = "0xA3015fE8483e6675310D09CB8F314059D004Ce65"
+
+    [environments.mainnet]
+    network = 'polygon.mainnet'
+    payment_contract_address = "0xA1f32c758c4324cC3070A3AA107C4dC7DdFe1a6f"
+    signer_contract_address = "0x2621BB3140D8914806E977F7e6035B468675304D"

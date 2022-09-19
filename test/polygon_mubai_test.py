@@ -5,7 +5,7 @@ import requests
 
 from test.Chain import Chain
 
-url_list = ['https://calibration-mcs-api.filswan.com', 'https://calibration-mcs-bsc.filswan.com']
+url_list = ['https://calibration-mcs-api.filswan.com', 'https://calibration-mcs-bsc.filswan.com', 'https://api.multichain.storage']
 
 @pytest.fixture
 def chain_info():
