@@ -5,7 +5,7 @@ import requests
 
 from test.Chain import Chain
 
-url_list = ['https://calibration-mcs-api.filswan.com', 'https://calibration-mcs-bsc.filswan.com']
+url_list = ['https://calibration-mcs-api.filswan.com', 'https://calibration-mcs-bsc.filswan.com', 'https://api.multichain.storage']
 
 @pytest.fixture
 def chain_info():
@@ -21,6 +21,7 @@ def server_config_info() -> Chain:
     for url in url_list:
         r = requests.get(url+'/api/v1/common/system/params')
         response = r.json()
+        print(response)
         data = response['data']
         print(data)
         server_config.append(Chain(url, network=data['chain_name'],
