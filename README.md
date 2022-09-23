@@ -28,5 +28,10 @@ python -m web-sample/main.py
 Testing script is under test folder
 
 ```shell
-pytest 
+pytest test/key_validation_test.py
+```
+
+For Mac
+```
+python3 -m pytest test/key_validation_test.py
 ```
